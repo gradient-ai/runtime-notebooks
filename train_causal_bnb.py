@@ -14,7 +14,7 @@ from tqdm.auto import tqdm
 from torch.cuda.amp import autocast
 from peft import get_peft_model, LoraConfig, prepare_model_for_kbit_training
 from peft.utils.other import fsdp_auto_wrap_policy
-from utils.llama_patch import upcast_layer_for_flash_attention
+# from utils.llama_patch import upcast_layer_for_flash_attention
 
 from accelerate import Accelerator
 from accelerate.logging import get_logger

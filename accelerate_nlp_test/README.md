@@ -23,9 +23,15 @@ Which type of machine are you using? ([0] No distributed training, [1] multi-CPU
 
 How many different machines will you use (use more than 1 for multi-node training)? [1]: 1
 
+Should distributed operations be checked while running for errors? This can avoid timeout issues but will be slower. [yes/NO]: no
+
+Do you wish to optimize your script with torch dynamo?[yes/NO]    :no
+
 Do you want to use DeepSpeed? [yes/NO]: no
 
 Do you want to use FullyShardedDataParallel? [yes/NO]: no
+
+Do you want to use Megatron-LM ? [yes/NO]: no
 
 How many GPU(s) should be used for distributed training? [1]: 2
 
